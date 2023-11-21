@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+
+#pic {
+  border-radius: 75px;
+  border: 1px solid #000;
+  position: relative;
+  left: 20px;
+}
+body {
+  background-color: #a3a3a3;
+  background-image: url("./pattern.png");
+  background-size: 100px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.bookcover {
+  background-color: #b4d1da;
+  width: 1000px;
+  height: 700px;
+  top: 10%;
+  margin: auto auto;
+  position: relative;
+  border-radius: 10px;
+}
+.bookdot {
+  position: relative;
+  left: 5px;
+  top: 5px;
+  width: 980px;
+  height: 680px;
+  border-style: dotted;
+  border-color: white;
+  border-radius: 10px;
+}
+.page {
+  background-color: whitesmoke;
+  width: 960px;
+  height: 655px;
+  position: absolute;
+  top: 2%;
+  left: 1%;
+  border-radius: 15px;
+  display: flex;
+}
+.box {
+  background-color: white;
+  flex: 2;
+  border: 1px solid powderblue;
+}
+p {
+  font-family: "Noto Sans KR", sans-serif;
+  /*margin-left: 15px;*/
+  text-align: center;
+}
+.lc {
+  display: flex;
+  flex: 0.3;
+  flex-direction: column;
+  margin-right: 22px;
+}
+.lt /*left title*/ {
+  position: relative;
+  top: 7px;
+  font-family: "Noto Sans KR", sans-serif;
+  text-align: center;
+  padding: 10px;
+}
+.lb /*왼쪽 박스 컨테이너와 폰트*/ {
+  background-color: white;
+  border: 1px solid rgb(173, 169, 169);
+  border-radius: 10px;
+  width: 195px;
+  height: 600px;
+  margin: 15px;
+}
+.mc {
+  display: flex;
+  flex: 1px;
+  flex-direction: column;
+}
+.mt/* Soun과 Instagram의 위치*/ {
+  font-family: "Noto Sans KR", sans-serif;
+  display: flex;
+  padding: 10px;
+  margin: 7px;
+}
+.mbox /*가운데 박스 */ {
+  overflow: auto;
+  background: white;
+  border: 1px solid rgb(173, 169, 169);
+  border-radius: 10px;
+  width: 550px;
+  height: 580px;
+}
+.intro /*____Soun____*/ {
+  font-family: "Noto Sans KR", sans-serif;
+  flex: 1;
+  font-weight: 800;
+}
+#news {
+  font-family: "Noto Sans KR", sans-serif;
+  position: relative;
+  left: 10px;
+  font-size: 20px;
+  color: powderblue;
+}
+.url /*Instagram 과 주소*/ {
+  font-family: "Noto Sans KR", sans-serif;
+  flex: 0.3;
+  font-size: 16px;
+  color: powderblue;
+  font-weight: 800;
+}
+.rbox /*오른쪽 박스*/ {
+  display: flex;
+  flex: 0.15;
+  flex-direction: column;
+  border: 1px;
+}
+.mt-memo /*Miniroom*/ {
+  font-family: "Noto Sans KR", sans-serif;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: powderblue;
+  font: bolder;
+  font-size: 20px;
+  border-bottom: solid 1px black;
+  padding: 5px;
+}
+.calendar {
+  border: 3px solid powderblue;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin: 20px 20px 0px 20px;
+  font-family: "NeoDunggeunmo", sans-serif;
+  margin: 10px;
+  padding: 5px;
+  font-weight: bolder;
+}
+.update_left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.left_update_1,
+.left_update_2,
+.left_update_3,
+.left_update_4 {
+  flex: 1;
+  font-size: 15px;
+}
+.red {
+  color: black;
+  background-color: bisque;
+  border-radius: 10%;
+  margin-left: 10px;
+}
+.org {
+  color: black;
+  background-color: aquamarine;
+  border-radius: 10%;
+  margin-left: 10px;
+}
+.update_right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.right_update_1,
+.right_update_2 {
+  flex: 0.3;
+  font-size: 15px;
+  border-bottom: 1px solid powderblue;
+  border-bottom-style: dashed;
+}
+.right_update_3 {
+  flex: 1;
+}
+.right_update_1_num {
+  color: powderblue;
+}
+.pado {
+  margin-top: 100px;
+}
+.first_menu /*오른쪽 박스 홈*/ {
+  margin-top: 70px;
+  padding-left: 10px;
+  padding-top: 10px;
+  background-color: powderblue;
+  height: 25px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: relative;
+  left: 82.6%;
+  top: 20px;
+  width: 7%;
+  font-weight: 800;
+}
+.second_menu /*오른쪽 박스 다이어리*/ {
+  margin-top: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  background-color: powderblue;
+  height: 25px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: relative;
+  width: 7%;
+  left: 82.6%;
+  top: 20px;
+  font-weight: 800;
+}
+.third_menu /*오른쪽 박스 사진첩*/ {
+  margin-top: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  background-color: powderblue;
+  height: 25px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: relative;
+  left: 82.6%;
+  width: 7%;
+  top: 20px;
+  font-weight: 800;
+}
+.fourth_menu /*오른쪽 박스 방명록*/ {
+  margin-top: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  background-color: powderblue;
+  height: 25px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: relative;
+  left: 82.6%;
+  width: 7%;
+  top: 20px;
+  font-weight: 800;
+}
+button {
+  background-color: powderblue;
+  color: black;
+  border: 2;
+  margin: 30px 0px 30px 150px;
+}
+button:hover {
+  transition: 800ms ease all;
+  color: black;
+  background-color: blanchedalmond;
+  border: 1px solid black;
+}
+.mainday {
+  flex: 0.1;
+  color: powderblue;
+  margin: 8px 5px 8px 10px;
+  text-align: center;
+}
+.subday {
+  flex: 0.9;
+  color: rgb(78, 78, 78);
+  margin: 8px 5px 8px 10px;
+}
+.saturday {
+  color: blue;
+}
+.sunday {
+  color: red;
+}
+.secret-note {
+  background-color: powderblue;
+  color: black;
+  margin: 0 auto;
+  height: 50px;
+  border: none;
+  font-family: "NeoDunggeunmo";
+  font-size: 14px;
+  margin: auto;
+  display: block;
+}
+.secret-note:hover {
+  background-color: powderblue;
+  border: none;
+}
+.diary-text {
+  position: absolute;
+  top: 70px;
+}
+.diary-new {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  font-family: "NeoDunggeunmo";
+  color: powderblue;
+  font-size: 16px;
+}
+.diary-name {
+  height: 270px;
+  border: solid grey 1px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.guestbookbox {
+  overflow: auto;
+  height: 512px;
+  font-family: "NeoDunggeunmo";
+}
+.guestname {
+  background-color: powderblue;
+  height: 35px;
+  vertical-align: middle;
+  line-height: 35px;
+  padding: 0px 15px;
+  font-size: 15px;
+  margin: 5px;
+  border-radius: 75px;
+}
+.guest-cont {
+  display: flex;
+  flex-direction: row;
+  margin: 30px 0px;
+  position: relative;
+}
+.guestbook-image {
+  flex: 0.35;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.guest-post {
+  flex: 1;
+  font-size: 12px;
+  margin-left: 20px;
+  display: table;
+}
+p {
+  display: table-cell;
+  vertical-align: middle;
+}
+.num {
+  color: powderblue;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+a:hover {
+  color: #1bc1a3;
+}
+
+.my_job {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  margin: 50px;
+}
+
+i {
+  text-decoration: none;
+  color: #666;
+}

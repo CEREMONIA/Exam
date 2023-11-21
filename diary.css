@@ -1,0 +1,29 @@
+#calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  max-width: 600px;
+  margin: 10px;
+  font-weight: 600;
+}
+
+.day {
+  padding: 10px;
+  border: 3px solid powderblue;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: black; /* 모든 날짜 텍스트를 검은색으로 변경 */
+}
+
+.sunday {
+  color: red; /* 일요일을 빨간색으로 유지 */
+}
+
+.saturday {
+  color: blue; /* 토요일을 파란색으로 유지 */
+}
+
+.day:hover {
+  background-color: powderblue;
+}
